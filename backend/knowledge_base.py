@@ -322,5 +322,42 @@ KNOWLEDGE_BASE = {
             "Yes. You can request a product demonstration by contacting "
             "our team through the Contact page."
         )
-    }
+    },
+
+    "project_consultation": {
+    "questions": [
+        "I need software for my business",
+        "I need an application developed for my company",
+        "Which solution would be best for my business?",
+        "I'm not sure whether I need an ERP or custom software",
+        "Can you help me decide what software I need?"
+    ],
+
+    "keywords": [
+        "need software",
+        "need an application",
+        "for my company",
+        "for my business",
+        "business requirement",
+        "project requirement",
+        "custom solution",
+        "custom application",
+        "need a system",
+        "which solution",
+        "what solution",
+        "what would you recommend",
+        "recommend",
+        "not sure",
+        "business idea",
+        "develop for my company"
+    ],
+
+    "answer": (
+        "We can help you determine the most suitable software "
+        "solution based on your business requirements. Since "
+        "the right approach depends on your specific needs, "
+        "our team can discuss your requirements and recommend "
+        "an appropriate solution."
+    )
+}
 }

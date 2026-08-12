@@ -176,7 +176,7 @@ function App() {
         {/* Header */}
 
         <div className="chat-header">
-          <div className="chat-header-avatar">🤖</div>
+          {/* <div className="chat-header-avatar">🤖</div> */}
 
           <div className="chat-header-text">
             <h1>Company Assistant</h1>
@@ -218,13 +218,13 @@ function App() {
 
                 {/* Development information */}
 
-                {message.sender === "bot" && message.intent && (
+                {/* {message.sender === "bot" && message.intent && (
                   <div className="debug-info">
                     Intent: {message.intent}
                     {message.confidence !== undefined &&
                       ` • Confidence: ${message.confidence}`}
                   </div>
-                )}
+                )} */}
               </div>
             </div>
           ))}
